@@ -13,9 +13,15 @@
                                  @Key("month")Integer month,
                                  @Key("list")ArrayList<Integer> list);
    }
+<
 
 
     public class IntentServiceImpl {
+
+   
+  
+   public class IntentServiceImpl {
+>>>>>>> a2dd560c71cf74795069a52a48fda5eb396c80b0
      public static void intent2ActivityDemo2(Context context, String platform, Integer month,
          ArrayList<Integer> list) {
        Intent intent = new Intent(context,com.youshon.routefr.SecondActivity.class);
@@ -28,7 +34,9 @@
 ```
 
 
+
 build后调用方可以直接敲入如下代码:
 ```IntentServiceImpl.intent2ActivityDemo2(...)```
+
 
 
