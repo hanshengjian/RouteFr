@@ -14,11 +14,6 @@
                                  @Key("list")ArrayList<Integer> list);
    }
 
-
-
-    public class IntentServiceImpl {
-
-   
   
    public class IntentServiceImpl {
 
