@@ -31,7 +31,9 @@
 
 
 build后调用方可以直接敲入如下代码:
-```IntentServiceImpl.intent2ActivityDemo2(...)```
+```
+IntentServiceImpl.intent2ActivityDemo2(...)
+```
 
 
 
