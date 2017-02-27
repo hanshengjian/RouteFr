@@ -1,0 +1,1 @@
+include ':app', ':route', ':route-annotation'
