@@ -9,6 +9,8 @@
                                  @Key("month")Integer month,
                                  @Key("list")ArrayList<Integer> list);
    }
+   
+  
    public class IntentServiceImpl {
      public static void intent2ActivityDemo2(Context context, String platform, Integer month,
          ArrayList<Integer> list) {
@@ -23,7 +25,7 @@
 
 
 
-build后调用方可以直接敲入如下代码:
+build后调用方可以直接敲入如下代码: 
 `IntentServiceImpl.intent2ActivityDemo2(...)`
 
 
